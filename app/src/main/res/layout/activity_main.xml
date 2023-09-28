@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_horizontal"
+    android:padding="24dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <ImageView
+        android:src="/Users/tonynguyen/Desktop/androidapps/OneRepMaxCalculator/app/src/main/res/drawable/woman_lifting_weights.jpeg"
+        android:layout_width="500dp"
+        android:layout_height="300dp"/>
+
+    <TextView
+        android:layout_margin="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 RM Calculator"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/text_view_weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_margin="8dp"
+            android:hint="Weight"/>
+
+        <EditText
+            android:id="@+id/text_view_reps"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_margin="8dp"
+            android:hint="Reps"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="Calculate"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_view_result"
+        android:layout_margin="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+</LinearLayout>
