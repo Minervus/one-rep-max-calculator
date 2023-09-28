@@ -8,7 +8,7 @@
 
     <ImageView
         android:src="/Users/tonynguyen/Desktop/androidapps/OneRepMaxCalculator/app/src/main/res/drawable/woman_lifting_weights.jpeg"
-        android:layout_width="500dp"
+        android:layout_width="400dp"
         android:layout_height="300dp"/>
 
     <TextView
